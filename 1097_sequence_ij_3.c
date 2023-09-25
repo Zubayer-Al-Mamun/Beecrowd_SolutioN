@@ -1,15 +1,8 @@
 #include <stdio.h>
  
 int main() {
-    int j=7;
-    int n=5;
-    for(int i=1;i<10;i=i+2){
-        while(n<=j){
-            printf("I=%d J=%d\n",i,j);
-            j--;
-        }
-        j=j+5;
-        n=n+2;
+    for(int i=0;i<=2;i=i+0.2){
+        printf("%d",i);
     }
  
     return 0;
